@@ -24,7 +24,7 @@ e-mail HTML.
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/AppSendemailApiApplication.git
+   git clone https://github.com/wesleywerikis/app-sendemail-api.git
    cd AppSendemailApiApplication
    ```
 
@@ -74,3 +74,7 @@ e-mail HTML.
 - `EmailController.java`: Controlador REST responsável por receber as requisições de envio de e-mails.
 - `EmailService.java`: Serviço responsável por montar e enviar o e-mail utilizando o `JavaMailSender` e Thymeleaf.
 - `EmailDto.java`: Objeto de transferência de dados para os parâmetros do e-mail.
+
+## Exemplo de E-mail Enviado
+
+![E-mail enviado com sucesso](src/main/resources/images/Envio%20de%20E-mail%20-%20Sucesso.png)
