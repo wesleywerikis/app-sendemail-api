@@ -26,7 +26,7 @@ public class EmailService {
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 
         helper.setTo(to);
-        helper.setFrom("wesleyqix.1996@gmail.com", "SISTEMA DE SOFTWARE");
+        helper.setFrom("seu-email@gmail.com", "SISTEMA DE SOFTWARE");
         helper.setSubject(subject);
 
         Context context = new Context();
